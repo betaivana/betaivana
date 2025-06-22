@@ -68,7 +68,7 @@ section ul li a:hover {
 
 #hero {
   background-color: #fff3ec;
-  padding: 0;
+  padding: 0 0 2rem 0;
   text-align: center;
   position: relative;
   border-radius: 0;
@@ -78,9 +78,8 @@ section ul li a:hover {
 
 #hero img {
   width: 100%;
-  max-width: 1000px;
+  height: auto;
   display: block;
-  margin: auto;
   border-radius: 0;
   box-shadow: none;
 }
