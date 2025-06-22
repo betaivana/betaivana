@@ -3,16 +3,16 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #fffaf6;
+  background-color: #fffaf3;
   color: #333;
   line-height: 1.6;
 }
 
 header {
-  background-color: #ffe2da;
+  background-color: #ffeadb;
   padding: 1rem 2rem;
   text-align: center;
-  border-bottom: 2px solid #ffb8a6;
+  border-bottom: 2px solid #ffc7b5;
 }
 
 header h1 {
@@ -69,16 +69,17 @@ section ul li a:hover {
 
 #hero {
   text-align: center;
-  background-color: #fff0ec;
-  padding: 2rem;
-  margin-top: 1rem;
+  background-color: #fff3ec;
+  padding: 4rem 2rem;
+  margin-top: 0;
+  border-radius: 0;
 }
 
 #hero img {
   width: 100%;
-  max-width: 480px;
-  border-radius: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  max-width: 520px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
 }
 
 .button {
