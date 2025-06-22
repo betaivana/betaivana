@@ -75,9 +75,10 @@ section ul li a:hover {
 }
 
 #hero img {
-  width: 220px;
-  max-width: 90%;
-  border-radius: 12px;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 .button {
