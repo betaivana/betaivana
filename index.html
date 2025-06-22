@@ -1,68 +1,215 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ivana's Web</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivana - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="description" content="Portfolio pribadi Ivana - Creative Professional">
+    <meta name="keywords" content="portfolio, creative, professional, design">
+    <meta name="author" content="Ivana">
 </head>
 <body>
-  <header>
-    <h1>Ivana's Space 🍑</h1>
-    <nav>
-      <ul>
-        <li><a href="#karya">💼 Karya & Profil</a></li>
-        <li><a href="#temani">📚 Temani Ivana</a></li>
-        <li><a href="#review">✨ Suara Mereka</a></li>
-        <li><a href="#traktir">🎁 Traktir Ivana Es Krim</a></li>
-        <li><a href="#kontak">📞 Kontak</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Ivana</h1>
+        </header>
 
-  <section id="hero">
-    <img src="img/ivana_berhijab_baca_buku.png" alt="ivana berhijab baca buku" id="hero-img">
-    <p>Tempat Ivana menata rasa, karya, dan semangat 🍃</p>
-  </section>
+        <!-- Navigation -->
+        <nav class="nav">
+            <a href="#karya-profil" class="nav-item">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/>
+                    <line x1="8" y1="2" x2="8" y2="6"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+                Karya & Profil
+            </a>
+            <a href="#temani-ivana" class="nav-item">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21"/>
+                    <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+                Temani Ivana
+            </a>
+            <a href="#suara-mereka" class="nav-item">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/>
+                </svg>
+                Suara Mereka
+            </a>
+            <a href="#kontak" class="nav-item">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+                </svg>
+                Kontak
+            </a>
+        </nav>
 
-  <section id="karya">
-    <h2>💼 Karya & Profil</h2>
-    <ul>
-      <li><a href="#">CV</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Project</a></li>
-    </ul>
-  </section>
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Image -->
+            <div class="hero-image">
+                <img src="images/ivana_berhijab_baca_buku.png" alt="Ivana reading a book" loading="lazy">
+            </div>
 
-  <section id="temani">
-    <h2>📚 Temani Ivana</h2>
-    <ul>
-      <li><a href="#">Perpustakaan</a></li>
-      <li><a href="#">Playlist</a></li>
-      <li><a href="#">Ruang Curhat</a></li>
-    </ul>
-  </section>
+            <!-- Content Cards -->
+            <div class="content-grid">
+                <!-- Karya & Profil Card -->
+                <div id="karya-profil" class="card">
+                    <div class="card-header">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                        <h2 class="card-title">Karya & Profil</h2>
+                        <span class="card-arrow">></span>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>CV</li>
+                            <li>Portfolio</li>
+                            <li>Projects</li>
+                        </ul>
+                    </div>
+                </div>
 
-  <section id="review">
-    <h2>✨ Suara Mereka</h2>
-    <p>"Ivana tuh bukan cuma pendengar, tapi pelukan virtual terbaik yang pernah ada."</p>
-    <!-- Nanti bisa auto dari Google Sheet/Formspree -->
-  </section>
+                <!-- Temani Ivana Card -->
+                <div id="temani-ivana" class="card">
+                    <div class="card-header">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                        <h2 class="card-title">Temani Ivana</h2>
+                        <span class="card-arrow">></span>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Perpustakaan</li>
+                            <li>Playlist</li>
+                            <li>Ruang Curhat</li>
+                        </ul>
+                    </div>
+                </div>
 
-  <section id="traktir">
-    <h2>🎁 Traktir Ivana Es Krim</h2>
-    <img src="img/traktir.png" alt="Ivana dengan es krim">
-    <p>Lagi butuh mood booster? Traktir Ivana es krim, yuk 🍨</p>
-    <a href="https://trakteer.id/username" target="_blank" class="button">Traktir Sekarang</a>
-  </section>
+                <!-- Suara Mereka Card (Highlighted) -->
+                <div id="suara-mereka" class="card highlight">
+                    <div class="card-header">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/>
+                        </svg>
+                        <h2 class="card-title">Suara Mereka</h2>
+                    </div>
+                    <div class="card-content">
+                        <p>Testimoni dan feedback dari teman-teman yang telah berkolaborasi atau berinteraksi dengan Ivana.</p>
+                    </div>
+                </div>
 
-  <footer id="kontak">
-    <p>Email: ivana@email.com</p>
-    <p>IG/Threads: @ivana.arts</p>
-    <small>Made with warm vibes and GitHub Pages 🍑</small>
-  </footer>
+                <!-- Traktir Ivana Card -->
+                <div class="card secondary">
+                    <div class="card-header">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                            <line x1="12" y1="17" x2="12.01" y2="17"/>
+                        </svg>
+                        <h2 class="card-title">Traktir Ivana</h2>
+                    </div>
+                    <div class="card-content">
+                        <p>Es Krim</p>
+                        <p style="margin-top: 10px; font-size: 0.9rem; opacity: 0.8;">Dukung karya Ivana dengan mentraktir es krim kesukaannya!</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer id="kontak" class="footer">
+            <a href="mailto:ivana@example.com" class="footer-item">
+                <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                </svg>
+                Email
+            </a>
+            <a href="https://instagram.com/ivana" target="_blank" rel="noopener noreferrer" class="footer-item">
+                <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+                IG
+            </a>
+            <a href="https://threads.net/@ivana" target="_blank" rel="noopener noreferrer" class="footer-item">
+                <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                    <line x1="9" y1="9" x2="9.01" y2="9"/>
+                    <line x1="15" y1="9" x2="15.01" y2="9"/>
+                </svg>
+                Threads
+            </a>
+        </footer>
+    </div>
+
+    <!-- Optional: Add some JavaScript for smooth interactions -->
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add click interactions for cards
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', function() {
+                // Add ripple effect
+                this.style.transform = 'scale(0.98)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards for animation
+        document.querySelectorAll('.card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
 </body>
 </html>
