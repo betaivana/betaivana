@@ -9,10 +9,9 @@ body {
 }
 
 header {
-  background-color: #ffeadb;
-  padding: 1rem 2rem;
-  text-align: center;
-  border-bottom: 2px solid #ffc7b5;
+  background-color: #fff3ec;
+  padding: 0;
+  border: none;
 }
 
 header h1 {
@@ -68,18 +67,29 @@ section ul li a:hover {
 }
 
 #hero {
-  text-align: center;
   background-color: #fff3ec;
-  padding: 4rem 2rem;
-  margin-top: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
   border-radius: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 #hero img {
   width: 100%;
-  max-width: 520px;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#hero::after {
+  content: "";
+  display: block;
+  height: 60px;
+  background: linear-gradient(#fff3ec, transparent);
 }
 
 .button {
